@@ -1,0 +1,29 @@
+{
+  "name": "kabanboard",
+  "version": "1.0.0",
+  "description": "backend for kaban board",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ekaji/kabanboard.git"
+  },
+  "author": "Ekaji Onah <ekajionah@gmail.com> (https://onahekajiblog.gatsbyjs.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ekaji/kabanboard/issues"
+  },
+  "homepage": "https://github.com/Ekaji/kabanboard#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^7.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
